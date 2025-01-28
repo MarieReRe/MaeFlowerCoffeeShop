@@ -1,0 +1,17 @@
+{
+  "name": "maeflowercoffeeshop",
+  "version": "1.0.0",
+  "description": "Small project for coffee syrups and the drinks you can make with them",
+  "main": "addFlavor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
