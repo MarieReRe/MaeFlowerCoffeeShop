@@ -7,9 +7,31 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <!-- Header with Navigation -->
+  <header>
+    <!-- Hamburger icon for mobile -->
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <!-- Navigation menu -->
+    <nav>
+         <!-- Logo -->
+     <div class="logo">
+        <img src="logo.png" alt="Coffee Syrup Logo" />
+      </div>
+      <ul>
+        <li><a href="#">Coffee Syrup Flavors</a></li>
+        <li><a href="#">This Month's Flavors</a></li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Archive</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main Content -->
         <div class="container">
-          <h1>Coffee Syrup Flavors & Drinks</h1>
-      
           <div class="form-group">
             <label for="flavor">Add Coffee Syrup Flavor:</label>
             <input type="text" id="flavor" placeholder="Enter flavor" />
