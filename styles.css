@@ -1,0 +1,115 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a3b40;  /* Dark Aqua background */
+    color: #f8f8f8;  /* Light text for high contrast */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container for content */
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2e4a4b;  /* Slightly lighter aqua background for content */
+    border-radius: 10px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);  /* Subtle shadow for depth */
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #f8f8f8;  /* Light text for header */
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: 'Georgia', serif;  /* Elegant serif font for premium feel */
+  }
+  
+  /* Input field and label styling */
+  .form-group {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 18px;
+    color: #f8f8f8;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: 2px solid #777;
+    font-size: 16px;
+    color: #333;
+    background-color: #f1f1f1;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #00b3b3;  /* Dark Aqua focus effect */
+    outline: none;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 14px 28px;
+    background-color: #00b3b3;  /* Dark Aqua button color */
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  button:hover {
+    background-color: #008c8c;  /* Slightly darker aqua on hover */
+  }
+  
+  /* Flavor list styling */
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #f8f8f8;
+    margin-top: 40px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    background-color: #2e4a4b;  /* Dark Aqua background for each flavor item */
+    color: #f8f8f8;
+    margin: 12px 0;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Subtle shadow for depth */
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #3a5a5b;  /* Slightly lighter aqua on hover */
+  }
+  
+  /* Spacing for form elements */
+  button, .form-group {
+    margin-bottom: 25px;
+  }
