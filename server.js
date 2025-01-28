@@ -1,3 +1,19 @@
+import { datadogRum } from '@datadog/browser-rum';
+
+datadogRum.init({
+    applicationId: 'fcb03831-b02d-4251-b7fc-079f90fc38df',
+    clientToken: 'pub58db0d20aaf005d3cf0b57062bcfe30a',
+    // `site` refers to the Datadog site parameter of your organization
+    // see https://docs.datadoghq.com/getting_started/site/
+    site: 'datadoghq.com',
+    service: 'maeflower',
+    env: '<ENV_NAME>',
+    // Specify a version number to identify the deployed version of your application in Datadog
+    // version: '1.0.0',
+    sessionSampleRate: 100,
+    sessionReplaySampleRate: 20,
+    defaultPrivacyLevel: 'mask-user-input',
+});
 const express = require('express');
 const db = require('./database');
 const app = express();
@@ -47,6 +63,6 @@ app.delete('/api/flavors/:id', (req, res) => {
 });
 
 // Start the server
-app.listen(4000, () => {
-  console.log('Server is running on http://localhost:4000');
+app.listen(5000, () => {
+  console.log('Server is running on http://localhost:5000');
 });
